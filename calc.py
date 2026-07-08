@@ -17,9 +17,16 @@ def menu():
     elif n==2:
         n1=int(input("How many numbers do u want to enter:"))
         num=int(input("Please specify the initial number you want to subtract from:"))
-        
         for i in range(n1):
             num1=int(input(f"THE {i+1} NUMBER IS:"))
             num=num-num1
         print(num)
+    elif n==3:
+        n1=int(input("How many numbers do u want to enter:"))
+        res=1
+        #num=int(input("Please specify the initial number you want to subtract from:"))
+        for i in range(n1):
+            num=int(input(f"THE {i+1} NUMBER IS:"))
+            res=res*num
+        print(res)
 menu()
