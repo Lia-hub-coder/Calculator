@@ -46,6 +46,7 @@ def menu():
             c.write(f"{s} chose Division and the answer is: {res}\n")
         elif n==5:
             print("This is view history")
+            c.write(f"{s} visited the history!\n")
             with open ("Calculator.txt","r") as history:
                 contents = history.read()
                 print(contents)
