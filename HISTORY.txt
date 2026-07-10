@@ -10,3 +10,9 @@ Rima visited the history!
 [2026-07-10,17:20:37],Yaquta visited the history!
 [2026-07-10,17:21:28],Maria chose Multiplication and the answer is: 384
 [2026-07-10,17:22:35],Danny visited the history!
+[2026-07-10,17:42:28],Ruby chose Addition and the answer is: 44
+[2026-07-10,17:44:03],Ruby chose Addition and the answer is: 3
+[2026-07-10,17:52:34],Stacy chose Subtraction and the answer is: 22
+[2026-07-10,17:52:50],Stacy chose to exit the program
+[2026-07-10,18:04:53],Damien chose Division and the answer is: 0.5
+[2026-07-10,18:05:03],Damien chose to exit the program
