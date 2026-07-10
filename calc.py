@@ -1,4 +1,5 @@
 #calculator project
+from datetime import datetime
 def menu():
     with open ("history.txt","a") as c:
         initial_contents='CALCULATOR\n1. ADDITION\n2. SUBTRACTION\n3. MULTIPLICATION\n4. DIVISION\n5. VIEW HISTORY\n6.EXIT'
@@ -8,6 +9,7 @@ def menu():
         print(design)
         s=input("Enter Your name please:  ")
         print(design)
+        now=datetime.now().strftime("%Y-%m-%d,%H:%M:%S")
         if n == 1:
             n1=int(input("How many numbers do u want to enter:"))
             res=int(input("Please specify the initial number you want to ADD to(Another n (number you selected) numbers will be asked from you after this!):"))
@@ -15,7 +17,7 @@ def menu():
                 num=int(input(f"THE {i+1} NUMBER IS:"))
                 res=res+num
             print(res)
-            c.write(f"{s} chose Addition and the answer is: {res}\n")
+            c.write(f"[{now}],{s} chose Addition and the answer is: {res}\n")
         elif n==2:
             n1=int(input("How many numbers do u want to enter:"))
             res=int(input("Please specify the initial number you want to subtract from(Another n (number you selected) numbers will be asked from you after this!):"))
@@ -23,7 +25,7 @@ def menu():
                 num=int(input(f"THE {i+1} NUMBER IS:"))
                 res=res-num
             print(res)
-            c.write(f"{s} chose Subtraction and the answer is: {res}\n")
+            c.write(f"[{now}],{s} chose Subtraction and the answer is: {res}\n")
         elif n==3:
             n1=int(input("How many numbers do u want to enter:"))
             res=int(input("Please specify the initial number you want to MULTIPLY(Another n (number you selected) numbers will be asked from you after this!):"))
@@ -32,7 +34,7 @@ def menu():
                 num=int(input(f"THE {i+1} NUMBER IS:"))
                 res=res*num
             print(res)
-            c.write(f"{s} chose Multiplication and the answer is: {res}\n")
+            c.write(f"[{now}],{s} chose Multiplication and the answer is: {res}\n")
         elif n==4:
             n1=int(input("How many numbers do u want to enter:"))
             res=int(input("Please specify the initial number you want to DIVIDE from(Another n (number you selected) numbers will be asked from you after this!):"))
@@ -43,16 +45,16 @@ def menu():
                 else:
                     res=res/num1
             print(res)
-            c.write(f"{s} chose Division and the answer is: {res}\n")
+            c.write(f"[{now}],{s} chose Division and the answer is: {res}\n")
         elif n==5:
             print("This is view history")
-            c.write(f"{s} visited the history!\n")
+            c.write(f"[{now}],{s} visited the history!\n")
             with open ("history.txt","r") as history:
                 contents = history.read()
                 print(contents)
         elif n==6:
             print("Bye! Have a nice day!")
-            c.write(f"{s} chose to exit the program\n")
+            c.write(f"[{now}],{s} chose to exit the program\n")
         else:
             print("Wrong input.")
 
