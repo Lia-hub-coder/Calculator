@@ -16,3 +16,21 @@ Rima visited the history!
 [2026-07-10,17:52:50],Stacy chose to exit the program
 [2026-07-10,18:04:53],Damien chose Division and the answer is: 0.5
 [2026-07-10,18:05:03],Damien chose to exit the program
+[2026-07-10,19:27:13],Jay chose Addition with numbers None and the answer is: 19
+[2026-07-10,19:27:23],Jay visited the history!
+[2026-07-10,20:23:29],Jay chose Addition with numbers None and the answer is: 3
+[2026-07-10,20:23:42],Jay visited the history!
+[2026-07-10,20:24:26],Jay chose to exit the program
+[2026-07-10,20:24:41],luffy visited the history!
+[2026-07-10,20:24:53],luffy chose Addition with numbers [2, 3] and the answer is: 6
+[2026-07-10,20:25:01],luffy chose to exit the program
+[2026-07-10,20:25:13],Coby visited the history!
+[2026-07-10,20:25:56],Coby chose Addition with numbers [4, 5, 7] and the answer is: 17
+[2026-07-10,20:26:05],Coby chose to exit the program
+[2026-07-10,20:26:18],Donavan visited the history!
+[2026-07-10,20:27:51],Donavan chose to exit the program
+[2026-07-10,20:35:49],Donavan chose Addition with numbers  [1, 2, 3]  and the answer is: 6
+[2026-07-10,20:35:56],Donavan chose Subtraction with numbers [45] and the answer is: 7
+[2026-07-10,20:36:05],Donavan visited the history!
+[2026-07-11,17:10:32] 1 chose Addition with numbers  [1, 2, 2]  and the answer is: 5
+[2026-07-11,17:10:46],1 visited the history!
