@@ -27,8 +27,10 @@ def menu():
                         num=int(input("Enter next number:"))
                         res=res+num
                         numbers.append(num)
-                    print('The answer is:',res)
-                    c.write(f"[{now}] {s} chose Addition with numbers  {numbers}  and the answer is: {res}\n")
+                    print(design2)
+                    print(f'Result:  {" + ".join(str(x) for x in numbers)} = {res}')
+                    print(design2)
+                    c.write(f"[{now}] {s} chose Addition: {" + ".join(str(x) for x in numbers)} = {res}\n")
                 elif n==2:
                     n1=int(input("How many numbers do u want to enter:"))
                     res=int(input("Enter first number:"))
@@ -37,8 +39,10 @@ def menu():
                         num=int(input("Enter next number:"))
                         res=res-num
                         numbers.append(num)
-                    print('The answer is:',res)
-                    c.write(f"[{now}] {s} chose Subtraction with numbers {numbers} and the answer is: {res}\n")
+                    print(design2)
+                    print(f'Result:  {" - ".join(str(x) for x in numbers)} = {res}')
+                    print(design2)
+                    c.write(f"[{now}] {s} chose Subtraction: {" - ".join(str(x) for x in numbers)} = {res}\n")
                 elif n==3:
                     n1=int(input("How many numbers do u want to enter:"))
                     res=int(input("Enter first number:"))
@@ -47,8 +51,10 @@ def menu():
                         num=int(input("Enter next number:"))
                         res=res*num
                         numbers.append(num)
-                    print('The answer is:',res)
-                    c.write(f"[{now}] {s} chose Multiplication with numbers {numbers} and the answer is: {res}\n")
+                    print(design2)
+                    print(f'Result:  {" * ".join(str(x) for x in numbers)} = {res}')
+                    print(design2)
+                    c.write(f"[{now}] {s} chose Multiplication: {" * ".join(str(x) for x in numbers)} = {res}\n")
                 elif n==4:
                     n1=int(input("How many numbers do u want to enter:"))
                     res=int(input("Enter first number:"))
@@ -60,8 +66,10 @@ def menu():
                         else:
                             res=res/num
                             numbers.append(num)
-                    print('The answer is:',res)
-                    c.write(f"[{now}] {s} chose Division with numbers {numbers} and the answer is: {res}\n")
+                    print(design2)
+                    print(f'Result:  {" / ".join(str(x) for x in numbers)} = {res}')
+                    print(design2)
+                    c.write(f"[{now}] {s} chose Division: {" / ".join(str(x) for x in numbers)} = {res}\n")
                 elif n==5:
                     print("This is view history")
                     c.write(f"[{now}] {s} visited the history!\n")
