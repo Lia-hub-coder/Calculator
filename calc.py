@@ -59,7 +59,7 @@ def menu():
                             print("Cannot enter zero! Zero won't be counted.")
                         else:
                             res=res/num
-                        numbers.append(num)
+                            numbers.append(num)
                     print('The answer is:',res)
                     c.write(f"[{now}] {s} chose Division with numbers {numbers} and the answer is: {res}\n")
                 elif n==5:
