@@ -21,40 +21,40 @@ def menu():
                 numbers=[]
                 if n == 1:
                     n1=int(input("How many numbers do u want to enter:"))
-                    res=int(input("Please specify the initial number you want to ADD to:"))
+                    res=int(input("Enter first number:"))
                     numbers.append(res)
                     for i in range(n1-1):
-                        num=int(input(f"THE {i+1} NUMBER IS:"))
+                        num=int(input("Enter next number:"))
                         res=res+num
                         numbers.append(num)
                     print('The answer is:',res)
                     c.write(f"[{now}] {s} chose Addition with numbers  {numbers}  and the answer is: {res}\n")
                 elif n==2:
                     n1=int(input("How many numbers do u want to enter:"))
-                    res=int(input("Please specify the initial number you want to subtract from:"))
+                    res=int(input("Enter first number:"))
                     numbers.append(res)
                     for i in range(n1-1):
-                        num=int(input(f"THE {i+1} NUMBER IS:"))
+                        num=int(input("Enter next number:"))
                         res=res-num
                         numbers.append(num)
                     print('The answer is:',res)
                     c.write(f"[{now}] {s} chose Subtraction with numbers {numbers} and the answer is: {res}\n")
                 elif n==3:
                     n1=int(input("How many numbers do u want to enter:"))
-                    res=int(input("Please specify the initial number you want to MULTIPLY:"))
+                    res=int(input("Enter first number:"))
                     numbers.append(res)
                     for i in range(n1-1):
-                        num=int(input(f"THE {i+1} NUMBER IS:"))
+                        num=int(input("Enter next number:"))
                         res=res*num
                         numbers.append(num)
                     print('The answer is:',res)
                     c.write(f"[{now}] {s} chose Multiplication with numbers {numbers} and the answer is: {res}\n")
                 elif n==4:
                     n1=int(input("How many numbers do u want to enter:"))
-                    res=int(input("Please specify the initial number you want to DIVIDE from:"))
+                    res=int(input("Enter first number:"))
                     numbers.append(res)
                     for i in range(n1-1):
-                        num=int(input(f"THE {i+1} NUMBER IS:"))
+                        num=int(input("Enter next number:"))
                         if num==0:
                             print("Cannot enter zero! Zero won't be counted.")
                         else:
