@@ -34,3 +34,23 @@ Rima visited the history!
 [2026-07-10,20:36:05],Donavan visited the history!
 [2026-07-11,17:10:32] 1 chose Addition with numbers  [1, 2, 2]  and the answer is: 5
 [2026-07-11,17:10:46],1 visited the history!
+[2026-07-11,17:15:04] 1 chose to exit the program
+[2026-07-12,11:55:43] Mary chose Subtraction with numbers [4, 5, 4, 3] and the answer is: -8
+[2026-07-12,11:57:33] Mary chose to exit the program
+[2026-07-12,11:58:45] Elixabeth chose to exit the program
+[2026-07-12,11:58:57] Claire chose Addition with numbers  [2, 3, 12, 3]  and the answer is: 20
+[2026-07-12,12:06:03] Claire chose to exit the program
+[2026-07-12,12:09:58] David chose Addition with numbers  [804, 3]  and the answer is: 807
+[2026-07-12,12:10:27] David visited the history!
+[2026-07-12,12:10:42] David chose to exit the program
+[2026-07-12,12:31:29] Robby chose Addition with numbers  [45, 2, 4]  and the answer is: 51
+[2026-07-12,12:31:38] Robby chose Division and the answer is: 1.9166666666666667
+[2026-07-12,12:52:34] Robby visited the history!
+[2026-07-12,13:08:55] Coby chose Division and the answer is: 5.333333333333333
+[2026-07-12,13:09:08] Coby chose Division and the answer is: 3.7777777777777777
+[2026-07-12,13:09:25] Coby visited the history!
+[2026-07-12,13:09:27] Coby visited the history!
+[2026-07-12,13:10:22] Robin chose Division with numbers [32, 4, 3] and the answer is: 2.6666666666666665
+[2026-07-12,13:10:31] Robin chose Division with numbers [98, 0, 4] and the answer is: 24.5
+[2026-07-12,13:10:40] Robin visited the history!
+[2026-07-12,13:56:13] Robin chose to exit the program
