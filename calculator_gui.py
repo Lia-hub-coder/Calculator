@@ -3,7 +3,8 @@ window=tk.Tk()
 window.title("CALCULATOR")
 display=tk.Entry(window)
 display.pack()
-
+first_number = None
+operator = None
 def click(value):
     display.insert(tk.END, f"{value}")
 zero=tk.Button(window,text='0', command=lambda:click(0))
