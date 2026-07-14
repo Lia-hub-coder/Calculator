@@ -27,4 +27,12 @@ six.pack()
 seven.pack()
 eight.pack()
 nine.pack()
+def operator_click(op):
+    global first_number
+    first_number=display.get()
+    display.delete(0,tk.END)
+    global operator
+    operator=op
+plus=tk.Button(window,text='+', command=lambda:operator_click ("+"))
+plus.pack()
 window.mainloop()
