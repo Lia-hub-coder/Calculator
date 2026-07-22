@@ -1,5 +1,5 @@
 import tkinter as tk
-window=tk.Tk()
+
 window.title("CALCULATOR")
 display=tk.Entry(window)
 display.pack()
