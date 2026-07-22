@@ -23,13 +23,16 @@ six.pack();seven.pack();eight.pack();nine.pack()
 def operator_click(op):
     global first_number
     first_number=display.get()
+    first_number=int(first_number)
     display.delete(0,tk.END)
     global operator
     operator=op
 def equal_click():
     global second_number
     second_number=display.get()
-equal=tk.Button(window, text="=", command=lambda:equal_click("="))
+    second_number=int(second_number)
+    print(second_number)
+equal=tk.Button(window, text="=", command=lambda:equal_click())
 plus=tk.Button(window,text='+', command=lambda:operator_click ("+"))
 plus.pack()
 equal.pack()
